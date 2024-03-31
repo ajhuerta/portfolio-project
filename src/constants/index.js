@@ -148,41 +148,39 @@ const projects = [
       },
     ],
     image: mentormatchv1,
-    source_code_link: "https://github.com/",
+    live_code_link: "https://mentormatch-7214d.firebaseapp.com/#/",
+    source_code_link: "https://github.com/kendrit/mentor-match",
   },
   {
     name: "MentorMatch V2",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "A Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
-        color: "green-text-gradient",
+        name: "redis",
+        color: "red-text-gradient",
       },
       {
-        name: "scss",
-        color: "pink-text-gradient",
-      },
+        name: "tailwind",
+        color: "green-text-gradient",
+      }
     ],
     image: mentormatchv2,
-    source_code_link: "https://github.com/",
+    live_code_link: "https://www.mentormatch.space/",
+    source_code_link: "https://github.com/ajhuerta/mentor_match",
   },
   {
     name: "InvestBuddy",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "A frontend project focused on providing financial material based on sentiment analysis and NLP on a user's search query.",
     tags: [
       {
-        name: "nextjs",
+        name: "react",
         color: "blue-text-gradient",
-      },
-      {
-        name: "supabase",
-        color: "green-text-gradient",
       },
       {
         name: "css",
@@ -190,7 +188,8 @@ const projects = [
       },
     ],
     image: investbuddy,
-    source_code_link: "https://github.com/",
+    live_code_link: "https://github.com/ajhuerta/CourseProject",
+    source_code_link: "https://github.com/ajhuerta/CourseProject",
   },
 ];
 

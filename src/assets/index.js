@@ -17,8 +17,8 @@ import amazon from "./company/amazon.png"
 import argonne from "./company/argonne.png"
 
 // Portfolio projects
-import mentormatchv1 from "./projects/mentormatchv1.png"
-import mentormatchv2 from "./projects/mentormatchv2.png"
+import mentormatchv1 from "./projects/mentormatchV1.png"
+import mentormatchv2 from "./projects/mentormatchV2.png"
 import investbuddy from "./projects/investbuddy.png"
 
 // Misc.

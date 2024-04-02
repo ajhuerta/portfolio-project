@@ -88,9 +88,9 @@ const experiences = [
     iconBg: "#383E56",
     date: "Summer 2023",
     points: [
-      "Introduced over 15 new attributes to a snowflake schema and backfilled historical data using Python and Apache Airflow.",
-      "Constructed a reverse ETL job with Python that would load daily refreshed data from Snowflake into DynamoDB tables.",
-      "Created a new GraphQL endpoints which served collections data for customer accounts which are delinquent and an endpoint that returned all account information for every delinquent account using the SoFi credit card.",
+      "Deprecated a legacy workflow by surfacing Fiserv data into Snowflake and updating existing services to consume the data.",
+      "Created an automated reverse ETL job to transform data from Snowflake, then loaded it to DynamoDB using Python and Apache Airflow.",
+      "Expanded GraphQL API to return 8 new attributes for delinquent accounts and created a new endpoint to show recent delinquencies.",
     ],
   },
   {

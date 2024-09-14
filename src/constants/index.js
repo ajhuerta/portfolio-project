@@ -90,7 +90,7 @@ const experiences = [
     points: [
       "Deprecated a legacy workflow by surfacing Fiserv data into Snowflake and updating existing services to consume the data.",
       "Created an automated reverse ETL job to transform data from Snowflake, then loaded it to DynamoDB using Python and Apache Airflow.",
-      "Expanded GraphQL API to return 8 new attributes for delinquent accounts and created a new endpoint to show recent delinquencies",
+      "Expanded GraphQL API to return 8 new attributes for delinquent accounts and created a new endpoint to show recent delinquencies.",
     ],
   },
   {

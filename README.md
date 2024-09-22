@@ -16,8 +16,7 @@ This project is built using the following:
 ## Deployment
 To redeploy the changes made in this project, follow these steps:
 
-1. **Clone the Repository**:
-   ```bash
-   git clone https://github.com/ajhuerta/portfolio-project.git
-   npm install
-   
+```bash
+git clone https://github.com/ajhuerta/portfolio-project.git
+npm install
+npm run dev

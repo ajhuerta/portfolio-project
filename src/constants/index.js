@@ -88,9 +88,9 @@ const experiences = [
     iconBg: "#383E56",
     date: "Summer 2023",
     points: [
-      "Deprecated a legacy workflow by surfacing Fiserv data into Snowflake and updating existing services to consume the data.",
       "Created an automated reverse ETL job to transform data from Snowflake, then loaded it to DynamoDB using Python and Apache Airflow.",
-      "Expanded GraphQL API to return 8 new attributes for delinquent accounts and created a new endpoint to show recent delinquencies.",
+      "Expanded the delinquent account GraphQL schema to include 8 new attributes and introduced a new schema to return new delinquent accounts.",
+      "Deprecated a legacy workflow by surfacing Fiserv data into Snowflake and updating existing services to consume the data.",
     ],
   },
   {
@@ -100,9 +100,9 @@ const experiences = [
     iconBg: "#383E56",
     date: "Fall 2022 - Spring 2023",
     points: [
-      "Deployed a dashboard web app using ReactJS and MongoDB which was used by over 10 developers across teams to view live analytics on pilot programs / products.",
-      "Integrated U.S Bank react components into the application and achieved WCAG 2.1 accessibility compliance.",
-      "Prototyped with the OpenAI ChatGPT API using Python, exploring potential use cases for the bank and discovered a 10% reduction in clicks on the mobile app when aided by a trained chat bot.",
+      "Deployed a dashboard using ReactJS and NodeJS, which displayed metrics on pilot products such as abandonment, time spent on page, etc.",
+      "Developed a freature to generate PDF reports using data collected on pilot programs which was utilized across adjacent teams.",
+      "Prototyped an AI chatbot with the OpenAI API and Python to test for potential search time reductions.",
     ],
   },
   {
@@ -112,9 +112,9 @@ const experiences = [
     iconBg: "#383E56",
     date: "Summer 2022",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
+      "Constructed a serverless feature for the Kindle app, where customers could rate recently read books using emojis.",
+      "Connected and deployed AWS cloud resources such as Lambda, DynamoDB, and API Gateway using the AWS CDK.",
+      "Interfaced a ReactJS web view on Kindle app and launched A/B testing in the US marketplace.",
     ],
   },
 
@@ -125,9 +125,9 @@ const experiences = [
     iconBg: "#383E56",
     date: "Summer 2020 - Winter 2020",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
+      "Developed Python web-scrapers using Selenium and Beautiful Soup to collect over a million vehicle data points.",
+      "Datamined and visualized trends such as a vehicle's repair cost based on make, model, and year using Matplotlib.",
+      "Migrated scrapped vehicle data stored in a csv format to Postgres tables.",
     ],
   },
 ];

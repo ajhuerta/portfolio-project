@@ -43,7 +43,7 @@ const Navbar = () => {
           }}
         >
           <p className="text-white text-[18px] font-bold cursor-pointer flex ">
-            🚀 Anthony Huerta
+            💻 Anthony Huerta
             {/* <span className='sm:block hidden'> | Software Engineer</span> */}
           </p>
         </Link>

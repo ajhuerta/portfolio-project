@@ -88,9 +88,9 @@ const experiences = [
     iconBg: "#383E56",
     date: "Summer 2023",
     points: [
-      "Created an automated reverse ETL job to transform data from Snowflake, then loaded it to DynamoDB using Python and Apache Airflow.",
-      "Expanded the delinquent account GraphQL schema to include 8 new attributes and introduced a new schema to return new delinquent accounts.",
-      "Deprecated a legacy workflow by surfacing Fiserv data into Snowflake and updating existing services to consume the data.",
+      "Created an automated reverse ETL pipeline with Python and Apache Airflow to transform Snowflake data and load it into DynamoDB on a daily basis.",
+      "Expanded the customer account GraphQL schema to include 8 new attributes and wrote business logic in Kotlin for a new schema which returned delinquent account information.",
+      "Backfilled historical data in snowflake using Airflow and Python for the new attributes which were introduced.",
     ],
   },
   {
@@ -148,7 +148,6 @@ const projects = [
       },
     ],
     image: mentormatchv1,
-    live_code_link: "https://mentormatch-7214d.firebaseapp.com/#/",
     source_code_link: "https://github.com/kendrit/mentor-match",
   },
   {
@@ -170,7 +169,6 @@ const projects = [
       }
     ],
     image: mentormatchv2,
-    live_code_link: "https://www.mentormatch.space/",
     source_code_link: "https://github.com/ajhuerta/mentor_match",
   },
   {
@@ -188,7 +186,6 @@ const projects = [
       },
     ],
     image: investbuddy,
-    live_code_link: "https://github.com/ajhuerta/CourseProject",
     source_code_link: "https://github.com/ajhuerta/CourseProject",
   },
 ];

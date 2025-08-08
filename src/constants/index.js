@@ -82,18 +82,6 @@ const technologies = [
 
 const experiences = [
   {
-    title: "Software Engineer Intern",
-    company_name: "SoFi",
-    icon: sofi,
-    iconBg: "#383E56",
-    date: "Summer 2023",
-    points: [
-      "Created an automated reverse ETL pipeline with Python and Apache Airflow to transform Snowflake data and load it into DynamoDB on a daily basis.",
-      "Expanded the customer account GraphQL schema to include 8 new attributes and wrote business logic in Kotlin for a new schema which returned delinquent account information.",
-      "Backfilled historical data in snowflake using Airflow and Python for the new attributes which were introduced.",
-    ],
-  },
-  {
     title: "Software Engineer Co-op",
     company_name: "U.S Bank",
     icon: usbank,
